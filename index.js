@@ -18,12 +18,6 @@ const questions = [
 
     },
     {
-        type: 'confirm',
-        name: 'table',
-        message: 'Would you like to include a table of contents?',
-        default: true
-    },
-    {
         type: 'input',
         name: 'installation',
         message: 'What are the steps required to install your project?',
