@@ -2,6 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./utils/generateMarkdown');
+const file = './README.md'
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -46,16 +47,45 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Provide examples for how to run tests',
+        message: 'Provide examples for how to run tests.',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your github username.'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address.'
     },
 
 ];
 
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    const pageReadMe = generatePage(data);
+    fs.writeFile(fileName, pageReadMe, err => {
+        if (err) throw new Error(err);
+        console.log('README created! Check out README.md in this directory to see it!');
+    });
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+        .then((answers) => {
+            writeToFile(file, answers)
+        })
+        .catch((error) => {
+            if (error.isTtyError) {
+              // Prompt couldn't be rendered in the current environment
+            } else {
+              // Something else went wrong
+            }
+          });
+};
 
 // Function call to initialize app
-init();
+init()
