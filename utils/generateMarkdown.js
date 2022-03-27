@@ -31,7 +31,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return `
   ## License
-  ${renderLicenseBadge(license) + renderLicenseLink(license)}
+  ${renderLicenseBadge(license) + renderLicenseLink(license)}  
   This application is covered by the ${license} license.
   `
   

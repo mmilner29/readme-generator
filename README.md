@@ -15,7 +15,7 @@
 
   ## Usage
 
-   ![Generator Demo](./demo/demo.mp4)
+   ![Generator Demo](./demo/demo.gif)
 
   ## Questions
   Please contact me using the following:  
