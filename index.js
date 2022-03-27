@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./utils/generateMarkdown');
-const file = './README.md'
+const file = './readme/README.md'
 
 // TODO: Create an array of questions for user input
 const questions = [
