@@ -1,8 +1,8 @@
 
-  # title
+  # README Generator
 
   ## Description
-   blah blah blah
+  Help users generate a professional readme file for their projects!
 
   ## Table of Contents
   -[Installation](#installation)  
@@ -13,26 +13,26 @@
   -[Questions](#questions)
 
   ## Installation
-  blah blah blah
+   Step 1: npm init Step 2: npm install inquirer
 
   ## Usage
-  no
+  Type node index into the command line and answer prompts like so!
 
   ## Contributions
-  asdf
+  Fork & PR
 
   
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  This application is covered by the MIT license.
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  This application is covered by the GNU GPLv3 license.
   
 
   ## Tests
-  asfsdf
+  TEST
 
   ## Questions
   Please contact me using the following:  
   Github: https://github.com/mmilner29  
-  Email: madi@gmail.com
+  Email: madisonm4514
 
 
