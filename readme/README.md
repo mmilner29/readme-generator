@@ -2,7 +2,7 @@
   # README Generator
 
   ## Description
-  Help users generate a professional readme file for their projects!
+  A tool to generate professional readme files for users and their projects.
 
   ## Table of Contents
   -[Installation](#installation)  
@@ -13,26 +13,26 @@
   -[Questions](#questions)
 
   ## Installation
-   Step 1: npm init Step 2: npm install inquirer
+  Step 1: npm init Step 2: npm install inquirer
 
   ## Usage
-  Type node index into the command line and answer prompts like so!
+  Instructions: run node index in command line and answer prompts
 
   ## Contributions
-  Fork & PR
+  Fork project and create PR.
 
   
   ## License
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  This application is covered by the GNU GPLv3 license.
+  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+  This application is covered by the GNU AGPLv3 license.
   
 
   ## Tests
-  TEST
+  TESTS EXAMPLE
 
   ## Questions
   Please contact me using the following:  
   Github: https://github.com/mmilner29  
-  Email: madisonm4514
+  Email: madisonm4514@gmail.com
 
 

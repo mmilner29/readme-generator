@@ -14,7 +14,8 @@
    run npm install inquirer  
 
   ## Usage
-   
+
+   ![Generator Demo](./demo/demo.mp4)
 
   ## Questions
   Please contact me using the following:  
