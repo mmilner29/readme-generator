@@ -10,8 +10,8 @@
   -[Questions](#questions)
 
   ## Installation
-   run npm init  
-   run npm install inquirer  
+   `run npm init`
+   `run npm install inquirer`  
 
   ## Usage
 
